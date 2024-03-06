@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -12,10 +13,12 @@
   padding: 10px 0;
   box-shadow: 0px 18px 20px -10px rgba(0, 0, 0, 0.52);
 }
+
 .container li {
   display: inline-block;
   margin: 10px 17px;
 }
+
 .container li a {
   color: rgb(9, 9, 9);
   text-transform: uppercase;
@@ -23,10 +26,12 @@
   font-family: 12pxs;
   font-size: 23px;
 }
+
 .container li a:hover {
   text-decoration: underline;
   text-underline-offset: 9px;
 }
+
 .logo {
   color: rgb(167, 75, 35);
   font-family: "Pirata One", system-ui;
@@ -35,8 +40,8 @@
 .logo:hover {
   cursor: pointer;
 }
-/* MAIN */
 
+/* MAIN */
 main {
   height: 90vh;
   display: flex;
@@ -44,6 +49,7 @@ main {
   align-items: center;
   flex-direction: column;
 }
+
 .main_content {
   display: flex;
   background-color: black;
@@ -61,12 +67,15 @@ main {
   border-radius: 14px;
   margin-top: 9px;
 }
+
 .btn:hover {
   background-color: rgb(228, 227, 227);
 }
+
 .btn:active {
   padding: 2px 35px;
 }
+
 @media screen and (max-width: 750px) {
   .container li a {
     font-size: 17px;
@@ -90,4 +99,4 @@ main {
   .logo {
     font-size: 20px;
   }
-}
+i}

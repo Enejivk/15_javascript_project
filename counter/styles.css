@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  padding: 8px 20px;
+  font-size: 20px;
+  margin: 10px 8px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: rgb(144, 142, 142);
+}
+h1.counter {
+  font-size: 100px;
+}
+h1 {
+  font-size: 50px;
+}
+@media screen and (max-width: 375px) {
+  button {
+    padding: 4px 9x;
+  }
+  button:active {
+    padding: 2px 0px;
+  }
+}

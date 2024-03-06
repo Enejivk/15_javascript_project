@@ -99,4 +99,9 @@ main {
   .logo {
     font-size: 20px;
   }
-i}
+}
+@media screen and (max-width: 375px) {
+  .main_content {
+    font-size: 15px;
+  }
+}
